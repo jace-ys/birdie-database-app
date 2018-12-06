@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.container {
+  text-align: center;
+  padding: 60px 100px;
+}
+
+.status-bar {
+  margin: 20px;
+}
+
+.table {
+  margin: 20px;
+}
+
+@media screen and (max-width: 496px) {
+  .container {
+    padding: 60px 20px;
+  }
+}

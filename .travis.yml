@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+install:
+  - npm install --prefix ./birdie-client
+  - npm install --prefix ./birdie-api
+script:
+  - npm run test:ci --prefix ./birdie-client
+  - npm test --prefix ./birdie-api

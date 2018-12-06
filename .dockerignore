@@ -1,0 +1,9 @@
+.git
+.gitignore
+.dockerignore
+.travis.yml
+**/*.test.js
+**/build
+**/node_modules
+Dockerfile
+README.md
